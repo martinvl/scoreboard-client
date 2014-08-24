@@ -2,7 +2,7 @@ var EventEmitter = require('events').EventEmitter;
 var inherits = require('util').inherits;
 var Q = require('q');
 var socketIO = require('socket.io-client');
-var token = require('sniffweb-token');
+var token = require('scoreboard-token');
 var _ = require('underscore');
 
 function SniffwebClient(host, port) {
